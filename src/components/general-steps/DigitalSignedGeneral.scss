@@ -1,0 +1,51 @@
+$success: rgb(83, 170, 86);
+$warning: rgb(254, 177, 67);
+
+.diagram-section-1 {
+  display: flex;
+  padding: 40px 0;
+  svg {
+    padding: 20px;
+  }
+}
+
+.excerpt-2 {
+  padding: 40px 0;
+}
+
+.diagram-section-2 {
+  display: flex;
+  padding: 0;
+  svg {
+    padding: 0 20px;
+  }
+  .half {
+    width: 50%;
+  }
+}
+
+.stamp-excerpt {
+  padding: 0 10px;
+}
+
+.diagram-section-3 {
+  margin: auto;
+  width: 65%;
+}
+
+.last-step {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  .last-excerpt {
+    font-weight: bold;
+    &.success {
+      color: $success;
+      background-color: transparent;
+    }
+    &.warning {
+      color: $warning;
+      background-color: transparent;
+    }
+  }
+}
